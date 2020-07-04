@@ -1,0 +1,62 @@
+/*.sec1 {
+    /* background-image: url(https://www.thedenverear.com/wp-content/uploads/2018/05/shutterstock_554109856.jpg); 
+    background-image: url('../Images/bg5.jpg');
+    background-size: cover;
+    background-origin: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;*/
+
+   	body {
+   		width:auto;
+   		height: auto;
+    /*background-color: black;*/
+    color: rgba(255,255,255,0);
+}
+#landing{
+    height: 100vh;
+    background-image: url('../Images/bg4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+.section {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.user-view {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/*.mainText{
+    font-family: 'Avenier Next';
+    position: absolute;
+    left: 40%;
+    margin-top: -12rem;
+    font-size: 4.5rem;
+    /*transition: 1.5s;
+    /*animation-name: change;
+    animation-duration: 1.5s;
+    
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}*/
+#mainText{
+    margin-top: 30vh;
+}
+
+#intro{
+    margin-top: 50px;
+}
+
+#work{
+    background-color: rgb(61,61,61);
+}
+
+#p1{
+    height: 350px;
+}
+
