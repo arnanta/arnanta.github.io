@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Roboto&display=swap');
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    background-image: url("../images/40d.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*LOGO CSS*/
+
+.logoLink {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 99;
+}
+
+.xavLogo {
+    width: 50px;
+}
+
+.logoText {
+    font-family: 'Dancing Script';
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+/*LOGO CSS END*/
+
+.intro {
+    margin-top: 5rem;
+}
+
+.heading {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Dancing Script';
+    text-shadow: rgba(0,0,0,1);
+}
+
+.wrapper {
+    margin-top: 3rem;
+    /* padding-bottom: 2rem;
+    padding-top: 1rem; */
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.row {
+    margin-top: 2rem;
+}
+.row div {
+    margin-bottom: 1rem;
+}
+
+.col-12 a, h2 {
+    color: #f1f1f1;
+    transition-duration: .5s;
+}
+/* .col-12 h2:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition-duration: .3s;
+} */
+
+.col-12 a:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/* SOCIAL ICONS */
+
+.fa-facebook-f, .fa-twitter, .fa-instagram {
+    background-image: linear-gradient(to left, white, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+.social-wrapper {
+    z-index: 99999;
+    position: absolute;
+    top: 35%;
+    left: -5px;
+    font-size: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+
+.social-wrapper a {
+    margin-bottom: 10px;
+}
+
+.splash .social {
+    opacity: .6;
+}
+
+.social-wrapper a:hover {
+    color: white !important;
+    transition-duration: 0.8s;
+    opacity: 1;
+}
+
+.social:hover {
+    transform: scale(2, 2);
+    transition-duration: .2s;
+    opacity: 1;
+}
+
+@media (max-width: 320px) {
+    .social-wrapper i {
+        font-size: 30px;
+        margin-bottom: -2rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .social-wrapper i {
+        font-size: 45px;
+        margin-bottom: -2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .social-wrapper i {
+        font-size: 45px;
+        left: 10px !important;
+        /* margin-bottom: -2rem; */
+    }
+}
+
+/*END OF SOCIAL ICON*/
+
+#loader{
+    margin-top: -5rem;
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 2rem !important;
+    }
+    .wrapper h3 {
+        font-size: 1.2rem !important;
+    }
+    .wrapper .row .col-12 {
+        font-size: .8rem !important;
+    }
+}
+
+.row a:hover{
+    color: white !important;
+    letter-spacing: 1.2px;
+}

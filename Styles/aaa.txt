@@ -1,0 +1,8 @@
+ <div class="section sec3">
+
+            <div class="sectionHeader text-center">
+                <div class="container">
+                    <h3 class="sectionName projects">Projects</h3>
+                    <p class="projecthead text-light">This are few interesting projects I am doing</p>
+                </div>
+            </div>

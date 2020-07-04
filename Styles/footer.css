@@ -1,0 +1,91 @@
+/*Footer*/
+
+.partnership , .contactUs, .eventQueries, .teamRegistrationQueries  {
+
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+
+.partnership a , .contactUs a, .eventQueries a, .teamRegistrationQueries a {
+
+    color: white;
+    opacity: .7;
+    text-align: left;
+    transition: 0.5s;
+  
+    /* margin-top: rem; */
+    
+}
+
+.partnership a:hover , .contactUs a:hover, .eventQueries a:hover, .teamRegistrationQueries a:hover {
+    text-align: center;
+    color: white;
+    opacity: 1;
+    text-shadow: 0px 1px 1px rgba(0,0,0,1);
+    text-decoration: none;
+    letter-spacing: 1px;
+    /* margin-top: rem; */
+    
+}
+
+.text-heading
+{
+    transition: 0.5s;
+}
+
+.text-heading:hover {
+
+    letter-spacing: 0.1rem;
+}
+
+.social-wrapper {
+
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+   
+}
+
+.social-wrapper i {
+    color: white;
+    opacity: 0.6;
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: .3s;
+    animation-name: change;
+    animation-duration: 3.5s;
+}
+
+.social-wrapper i:hover {
+    transform: scale(1.5);
+    opacity: 1;
+    border-color: white!important;
+}
+
+
+.followUs
+{
+    font-size: 1rem;
+    text-align: center;
+    width: 10rem;
+    padding: 0.2rem;
+    margin-bottom: 2rem;
+    border-radius: 20px 20px 20px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.followUs:hover
+{
+    color: white;
+    letter-spacing: 0.1rem;
+    background-color: transparent;
+    box-shadow: white;
+    
+}
+.navWrapper {
+    position: fixed!important;
+}
